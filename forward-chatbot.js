@@ -1,4 +1,4 @@
-for (page in ['/user-admission-process','/digital-campus']){
+for (var page in ['/user-admission-process','/digital-campus']){
     if (window.location.pathname.includes(page)) {
         document.getElementById('deployment-6edafc9f-46d2-4164-80a1-3f80cd80c57c').style.display = 'none';
     }
