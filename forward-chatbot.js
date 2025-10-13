@@ -1,4 +1,8 @@
 
+if (window.location.pathname.includes(['/user-admission-process','/digital-campus'])) {
+  document.getElementById('deployment-6edafc9f-46d2-4164-80a1-3f80cd80c57c').style.display = 'none';
+}
+
 // Event listener for clicks on ChatBot links
 document.addEventListener('click', function(event) {
 
