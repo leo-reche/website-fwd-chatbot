@@ -17,6 +17,10 @@
 
    }
 
+   #deployment-6edafc9f-46d2-4164-80a1-3f80cd80c57c .bot-off{
+        display: none;
+   }
+
     /* Text inside the typing area*/
         .pxe-resize-none {
     font-size: 1.6rem !important;
