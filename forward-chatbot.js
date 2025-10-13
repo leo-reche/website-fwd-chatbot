@@ -1,4 +1,4 @@
-for (var page in ['/user-admission-process','/digital-campus']){
+for (var page of ['/user-admission-process','/digital-campus']){
     if (window.location.pathname.includes(page)) {
         console.log(" ============== Test - BOT OFF =============");
         document.body.classList.add("bot-off")
