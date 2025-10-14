@@ -66,17 +66,20 @@
 
     /* send button to the left */
     button.pxe-fixed.pxe-z-50 {
-        left: 20px !important;
+        right: 4px !important;
+        bottom: 200px !important;
+        border-radius:25px !important;
     }
 
     /* send chat to the left */
     .pxe-transition-h.pxe-fixed {
-        left:20px !important;
-        transform-origin: left bottom !important;
+        right:80px !important;
+        bottom: 80px !important;
+        transform-origin: right 200px !important;
+
     }
 
     button.pxe-flex.pxe-items-center.pxe-gap-1.pxe-opacity-70.pxe-outline-none.pxe-transition-opacity.pxe-duration-300.pxe-ease-in-out.hover\:pxe-opacity-100 {
         display: none !important;
     }
-
 
