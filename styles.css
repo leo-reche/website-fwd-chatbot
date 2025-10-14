@@ -72,6 +72,13 @@ button.pxe-fixed.pxe-z-50 {
     border-radius:25px !important;
 }
 
+/* button adjust size on mobile */
+@media(max-width:575px){
+    button.pxe-fixed.pxe-z-50 {
+        bottom: 140px !important;
+    }
+}
+
 /* send chat to the left */
 .pxe-transition-h.pxe-fixed {
     right:80px !important;
