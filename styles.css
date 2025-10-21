@@ -72,13 +72,6 @@ button.pxe-fixed.pxe-z-50 {
     border-radius:25px !important;
 }
 
-/* button adjust size on mobile */
-@media(max-width:575px){
-    button.pxe-fixed.pxe-z-50 {
-        bottom: 140px !important;
-    }
-}
-
 /* send chat to the left */
 .pxe-transition-h.pxe-fixed {
     right:80px !important;
@@ -86,6 +79,21 @@ button.pxe-fixed.pxe-z-50 {
     transform-origin: right 200px !important;
 
 }
+
+/*on mobile */
+@media(max-width:575px){
+    /* button adjust size */
+    button.pxe-fixed.pxe-z-50 {
+        bottom: 140px !important;
+    }
+    /* chat adjust pos */
+    .pxe-transition-h.pxe-fixed {
+    right:10px !important;
+    bottom: 210px !important;
+    transform-origin: right 200px !important;
+    }
+}
+
 
 /*Copy Button*/
 button.pxe-flex.pxe-items-center.pxe-gap-1.pxe-opacity-70.pxe-outline-none.pxe-transition-opacity.pxe-duration-300.pxe-ease-in-out.hover\:pxe-opacity-100 {
