@@ -68,8 +68,9 @@ strong:where(.pickaxe-embed,.pickaxe-embed *)  {
 /* send button to the left */
 button.pxe-fixed.pxe-z-50 {
     right: 1px !important;
-    bottom: 185px !important;
+    bottom: 175px !important;
     border-radius:25px !important;
+    scale: 0.9 !important;
 }
 
 /* send chat to the left */
