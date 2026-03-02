@@ -67,8 +67,8 @@ strong:where(.pickaxe-embed,.pickaxe-embed *)  {
 
 /* send button to the left */
 button.pxe-fixed.pxe-z-50 {
-    right: 1px !important;
-    bottom: 175px !important;
+    right: 0.1rem !important;
+    bottom: 19.5rem !important;
     border-radius:25px !important;
     scale: 0.9 !important;
 }
