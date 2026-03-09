@@ -1,6 +1,6 @@
-for (var page of ['/user-admission-process','/digital-campus']){
+for (var page of ['/digital-campus']){
     if (window.location.pathname.includes(page)) {
-        document.body.classList.add("bot-off")
+        document.body.classList.add("digital-campus")
     }
 }
 
