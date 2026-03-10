@@ -1,4 +1,4 @@
-for (var page of ['/digital-campus']){
+for (var page of ['/digital-campus','/user-admission-process']){
     if (window.location.pathname.includes(page)) {
         document.body.classList.add("digital-campus")
     }
